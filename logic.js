@@ -104,18 +104,3 @@ function maker(eleType, parent, html, cla) {
   ele.innerHTML = html;
   return parent.appendChild(ele);
 }
-
-// function toggleFlip(parent, boo) {
-//   const bEle = parent.querySelector(".back");
-//   const fEle = parent.querySelector(".front");
-//   if (bEle.style.display == "block") {
-//     bEle.style.display = "none";
-//     fEle.style.display = "block";
-//   } else {
-//     bEle.style.display = "block";
-//     fEle.style.display = "none";
-//   }
-//   console.log(parent);
-// }
-
-makeGrid();
